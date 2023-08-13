@@ -15,8 +15,7 @@ import io.appium.java_client.remote.MobileCapabilityType;
 
 public class ZoomIn {
 	
-
-@Test
+@Test 
 	
 	public void launch() throws Throwable {
 		
