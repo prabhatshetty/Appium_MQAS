@@ -9,7 +9,7 @@ import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 
-public class TapDemo {
+public class ScreenOrientation {
 @Test
 	
 	public void launch() throws Throwable {
@@ -31,9 +31,10 @@ public class TapDemo {
 		 AndroidDriver driver = new AndroidDriver(u,dc);
 		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		 driver.findElement(AppiumBy.xpath("//android.widget.TextView[@content-desc='Views']")).click();
-		// ScreenOrientation s = driver.getOrientation();
-		// driver.rotate(s.LANDSCAPE);
-		 driver.findElement(AppiumBy.xpath("//android.widget.TextView[@content-desc='Drag and Drop']")).click();
+		 
+		 org.openqa.selenium.ScreenOrientation s = driver.getOrientation();
+		 driver.rotate(s.LANDSCAPE);
+	
 		
 
 		 driver.quit();
