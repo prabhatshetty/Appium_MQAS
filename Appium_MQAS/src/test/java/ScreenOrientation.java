@@ -1,7 +1,6 @@
 import java.net.URL;
 import java.time.Duration;
 
-import org.openqa.selenium.ScreenOrientation;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
 
