@@ -33,7 +33,7 @@ public class ScrollByUiAutomatorSnippet {
 		 
 		 //uiautomator scroll gesture
 		 driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"WebView\"));"));
-
+//////
 		 driver.quit();
 }
 }
