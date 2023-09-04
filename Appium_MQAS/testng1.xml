@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="deviceName" value="Android" />
+		<parameter name="UDID" value="R5CRA1VFJAE" />
+		<parameter name="port" value="4723" />
+		<classes>
+			<class name="ParllelExe.Parameter_Demo"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ScreenOrientation">
+      <class name="ParllelExe.BrowserStackTest">
         <methods>
-          <include name="launch"/>
+          <include name="mobileBrowser"/>
         </methods>
-      </class> <!-- ScreenOrientation -->
+      </class> <!-- ParllelExe.BrowserStackTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
